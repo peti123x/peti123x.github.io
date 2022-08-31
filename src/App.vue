@@ -1,35 +1,54 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import {BContainer, BCol, BCard} from "bootstrap-vue-3";
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    <p>Hello World</p>
+    <b-container class="d-flex main-container">
+      <b-col>
+        <b-card
+          title="Peter Cseik"
+          class="text-center"
+        >
+          <img alt="Peter Cseik" class="logo" src="@/assets/me.jpg" width="125" height="125" />
+          Hi. I am a Software Engineer.
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+          <div class="d-flex">
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+          </div>
 
-  <RouterView />
+        </b-card>
+      </b-col>
+      <b-col>
+        <RouterView />
+      </b-col>
+    </b-container>
 </template>
 
 <style scoped>
+.bi {
+  cursor: pointer;
+  height: 2rem;
+}
+.bi.bi-github:hover {
+  background-color: var(--bs-purple);
+}
+.bi.bi-linkedin:hover {
+  background-color: var(--bs-blue);
+}
+.main-container {
+  gap: 1rem;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
+  justify-content: center;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto !important;
+  border-radius: 50%;
 }
 
 nav {

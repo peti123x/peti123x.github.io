@@ -1,11 +1,10 @@
 <template>
   <main>
-    <el-tabs tab-position="top" class="tabbed-view">
+    <el-tabs tab-position="top" class="tabbed-view" type="border-card">
       <el-tab-pane label="Experience"><Experience /></el-tab-pane>
       <el-tab-pane label="Education"><Education /></el-tab-pane>
       <el-tab-pane label="Projects"><Projects /></el-tab-pane>
     </el-tabs>
-
   </main>
 </template>
 <script lang="ts">
@@ -30,5 +29,10 @@ export default defineComponent({
   max-height: 100vh;
   min-height: 90vh;
   height: auto;
+}
+
+main {
+  box-shadow: var(--el-box-shadow);
+  height: 100%;
 }
 </style>

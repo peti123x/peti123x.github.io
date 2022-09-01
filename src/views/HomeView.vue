@@ -1,49 +1,31 @@
 <template>
   <main>
-    <div>
-      <h2>Experience</h2>
-        <b-card v-for="item in data" :title="item.name">
-          {{ item.description }}
-        </b-card>
-    </div>
+    <el-tabs tab-position="top" class="tabbed-view">
+      <el-tab-pane label="Experience"><Experience /></el-tab-pane>
+      <el-tab-pane label="Education"><Education /></el-tab-pane>
+    </el-tabs>
 
   </main>
 </template>
 <script lang="ts">
-import {BCard} from "bootstrap-vue-3";
 import {defineComponent} from "vue";
+import Experience from "@/components/Experience.vue";
+import Education from "@/components/Education.vue";
 export default defineComponent({
   name: 'Homeview',
   components: {
-    BCard,
+    Education,
+    Experience,
   },
   setup() {
-    const data = [
-      {
-        name: 'Expansive Solutions - 01/2022 -> Now',
-        title: 'Software Engineer',
-        description: 'Love this!',
-      },
-      {
-        name: 'Blue Light Card - 02/2021 -> 01/2022',
-        title: 'Software Engineer',
-        description: 'This was another job!',
-      },
-      {
-        name: 'ampSuite - 06/2020 -> 02/2021',
-        title: 'PHP Developer',
-        description: 'This was my first job!',
-      },
-    ];
 
-    return {
-      data
-    };
   },
 });
 </script>
 <style scoped>
-fieldset {
-  margin-top: 1rem;
+.tabbed-view {
+  max-height: 100vh;
+  min-height: 90vh;
+  height: auto;
 }
 </style>

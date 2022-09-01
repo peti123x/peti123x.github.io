@@ -17,10 +17,16 @@ import Person from "@/components/Person.vue";
   </div>
 </template>
 
-<style scoped>
-
+<style>
+#header {
+  box-shadow: var(--el-box-shadow);
+}
 .common-layout {
   height: 100%;
+}
+.el-main {
+  height: 100%;
+  padding: 0 1.5rem !important;
 }
 
 </style>

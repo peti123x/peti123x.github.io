@@ -5,11 +5,12 @@
 </template>
 <script lang="ts">
 import {defineComponent} from "vue";
+import type {Tag} from "@/types/Tag";
 
 export default defineComponent({
   name: 'Hobbies',
   setup() {
-    const data: Array<object> = [
+    const data: Array<Tag> = [
       {
         name: 'LEGO',
         status: 'danger',
@@ -28,7 +29,7 @@ export default defineComponent({
       },
     ];
 
-    function shuffle(array: Array<object>): Array<object> {
+    function shuffle(array: Array<Tag>): Array<Tag> {
       return array.sort(() => Math.random() - 0.5);
     }
 

@@ -1,16 +1,23 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import BootstrapVue3 from 'bootstrap-vue-3'
-import BootstrapVueIcons from 'bootstrap-vue-3';
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 
 import './assets/main.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
+
+library.add(
+    faLinkedin,
+    faGithubSquare,
+);
 
 const app = createApp(App)
 
 app.use(router)
-app.use(BootstrapVue3)
-app.use(BootstrapVueIcons);
+app.use(ElementPlus)
+app.component('font-awesome-icon', FontAwesomeIcon);
 app.mount('#app')

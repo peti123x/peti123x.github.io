@@ -6,7 +6,7 @@ import Person from "@/components/Person.vue";
 <template>
   <div class="common-layout">
     <el-container>
-      <el-aside width="400px" id="header">
+      <el-aside width="320px" id="header">
         <Person />
 
       </el-aside>

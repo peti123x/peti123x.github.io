@@ -3,11 +3,10 @@
     <template #header>
       <div class="card-header">
         <h1>Peter Cseik</h1>
+        <h2>Fullstack Software Engineer</h2>
       </div>
     </template>
-    <img alt="Peter Cseik" class="logo" src="@/assets/me.jpg" width="125" height="125" />
-
-    <h4>Hi. I am a Software Engineer.</h4>
+    <img alt="Peter Cseik" class="logo" src="@/assets/me.jpg" width="155" height="155" />
 
     <div class="icons">
       <a target="_blank" href="https://www.linkedin.com/in/pcseik/">
@@ -49,8 +48,11 @@ export default defineComponent({
   height: 100%;
   text-align: center;
 }
+.icons {
+  margin-top: 1rem;
+}
 .icons * {
-  margin: 0 0.25rem;
+  margin: 0 0.15rem;
 }
 .icons svg {
   font-size: 2rem;
@@ -60,5 +62,8 @@ export default defineComponent({
 }
 .icons .github:hover, .icons .github:active {
   color: purple;
+}
+h1 {
+  font-weight: bold;
 }
 </style>

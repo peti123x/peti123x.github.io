@@ -9,7 +9,10 @@
 
     <div class="collapse">
       <el-collapse v-model="actives">
-        <el-collapse-item v-for="item in data" :title="`${item.title} @ ${item.name}`" :name="item.name">
+        <el-collapse-item v-for="item in data" :name="item.name">
+          <template #title>
+            <span>{{ `${item.title} @ ${item.name}` }}</span>
+          </template>
           <div v-for="line in item.description">{{ line }}</div>
         </el-collapse-item>
       </el-collapse>
@@ -60,5 +63,8 @@ export default defineComponent({
 <style scoped>
 .note {
   margin-bottom: 1.5rem;
+}
+span {
+  font-weight: bold;
 }
 </style>

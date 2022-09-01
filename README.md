@@ -1,46 +1,22 @@
-# portfolio
+# Peter Cseik CV Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+![Pipeline](https://github.com/peti123x/peti123x.github.io/actions/workflows/pages.yml/badge.svg)
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Welcome to the repository of my portfolio website! This is a simple JS app to mimic my CV for the purpose of trying new technologies.
 
-## Type Support for `.vue` Imports in TS
+## Tech used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Vue3 (with TypeScript)
+- [Element Plus](https://element-plus.org/en-US/) (UI Library)
+- [Github Actions](https://github.com/features/actions) (CI/CD)
+- [Github Pages](https://pages.github.com/) (Hosting)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Things to improve on
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- Mobile responsiveness
+- Tests
+- Additional steps in the pipeline
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+If you like the idea and or the look, feel free to fork the repository and do something similar.

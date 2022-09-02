@@ -1,14 +1,14 @@
 <template>
-  <el-tag v-for="item in data" :key="item.name" class="mx-1" effect="dark" :type="item.status">
-    {{ item.name }}
-  </el-tag>
+  <Tags :data="data" />
 </template>
 <script lang="ts">
 import {defineComponent} from "vue";
 import type {Tag} from "@/types/Tag";
+import Tags from "@/components/Tags.vue";
 
 export default defineComponent({
   name: 'Hobbies',
+  components: {Tags},
   setup() {
     const data: Array<Tag> = [
       {
@@ -29,12 +29,8 @@ export default defineComponent({
       },
     ];
 
-    function shuffle(array: Array<Tag>): Array<Tag> {
-      return array.sort(() => Math.random() - 0.5);
-    }
-
     return {
-      data: shuffle(data),
+      data,
     };
   },
 });

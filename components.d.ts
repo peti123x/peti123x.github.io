@@ -14,7 +14,6 @@ declare module '@vue/runtime-core' {
     ElCollapseItem: typeof import('element-plus/es')['ElCollapseItem']
     ElContainer: typeof import('element-plus/es')['ElContainer']
     ElDivider: typeof import('element-plus/es')['ElDivider']
-    ElEmpty: typeof import('element-plus/es')['ElEmpty']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
@@ -25,9 +24,11 @@ declare module '@vue/runtime-core' {
     Hobbies: typeof import('./src/components/Hobbies.vue')['default']
     Languages: typeof import('./src/components/Languages.vue')['default']
     Person: typeof import('./src/components/Person.vue')['default']
+    Project: typeof import('./src/components/Project.vue')['default']
     Projects: typeof import('./src/components/Projects.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Skills: typeof import('./src/components/Skills.vue')['default']
+    Tags: typeof import('./src/components/Tags.vue')['default']
   }
 }

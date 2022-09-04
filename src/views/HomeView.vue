@@ -29,7 +29,7 @@ export default defineComponent({
     Experience,
   },
   setup(props) {
-    const selectedTab = ref<string | null | undefined>('experience');
+    const selectedTab = ref<string | undefined>('experience');
 
     onMounted(() => {
       selectedTab.value = props.tab;

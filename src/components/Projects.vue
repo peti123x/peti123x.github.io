@@ -5,13 +5,13 @@
         <span>Projects</span>
       </div>
     </template>
-    <el-tabs tab-position="left" type="border-card">
+    <el-tabs :tab-position="tabPosition" type="border-card">
       <el-tab-pane v-for="item in data" :label="item.name"><Project :data="item" /></el-tab-pane>
     </el-tabs>
   </el-card>
 </template>
 <script lang="ts">
-import {defineComponent} from "vue";
+import {computed, defineComponent, ref} from "vue";
 import Project from "@/components/Project.vue";
 import type {TProject} from "@/types/Project";
 import type {Tag} from "@/types/Tag";
@@ -123,8 +123,18 @@ export default defineComponent({
       },
     ];
 
+    let windowWidth = ref(window.innerWidth);
+    const tabPosition = computed(() => {
+      console.log(windowWidth.value);
+      if (windowWidth.value <= 1024) {
+        return 'top';
+      }
+      return 'left';
+    });
+
     return {
       data,
+      tabPosition,
     };
   }
 });

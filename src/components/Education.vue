@@ -28,7 +28,6 @@ export default defineComponent({
         location: 'University of Lincoln',
         description: [
             'Passed with scoring above 70% in all my modules across the 3 years. Specialised in AI / Machine Learning modules.',
-            'My dissertation was in the field of data science; studying rail traffic patterns and predictability.',
         ],
         start: '2017/09/01',
       },
@@ -42,19 +41,16 @@ export default defineComponent({
         ],
         start: '2015/09/01',
       },
-      {
-        name: 'GCSE',
-        location: 'School',
-        description: [
-            '11 GCSEs C and above',
-        ],
-        start: '2011/09/01',
-      },
     ];
 
     return {
       data,
     };
   },
-});
+})
 </script>
+<style scoped>
+h3 {
+  font-weight: bold;
+}
+</style>

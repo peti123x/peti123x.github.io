@@ -29,3 +29,19 @@ h2 {
 a:visited {
   color: inherit;
 }
+
+@media (max-width: 1024px) {
+  section.el-container {
+    flex-direction: column;
+  }
+  main > div.el-tabs {
+    max-height: unset !important;
+  }
+  main.el-main {
+    padding: 1rem 0 0 0 !important;
+    width: 320px;
+  }
+  div.el-collapse-item__header {
+    line-height: 1rem;
+  }
+}

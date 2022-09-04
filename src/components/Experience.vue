@@ -5,7 +5,6 @@
         <span>Experience</span>
       </div>
     </template>
-    <div class="note">Please read below to read more about my previous experience and my responsibilities!</div>
 
     <div class="collapse">
       <el-collapse v-model="actives">
@@ -50,6 +49,14 @@ export default defineComponent({
             'In addition, I interacted with a large client pool & suppliers of ampSuite day to day, and monitor numerous data ingestion scripts amongst other processes.',
         ],
       },
+      {
+        name: 'University of Lincoln - 04/2018 -> 05/2020',
+        title: 'ICT Associate Developer',
+        description: [
+            'In this role my focus was on developing and maintaining web applications which enhance student experience within the university.',
+            'Projects which I have been involved in are a university wide AI chatbot answering FAQs and an on-campus navigation system. These projects are developed in C# .NET with Vue.js frontend.',
+        ],
+      }
     ];
     const actives = data.map((item) => item.name);
 

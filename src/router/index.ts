@@ -9,6 +9,30 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      props: { tab: 'experience' },
+    },
+    {
+      path: '/education',
+      name: 'education',
+      component: HomeView,
+      props: { tab: 'education' },
+    },
+    {
+      path: '/experience',
+      name: 'experience',
+      component: HomeView,
+      props: { tab: 'experience' },
+    },
+    {
+      path: '/projects',
+      name: 'projects',
+      component: HomeView,
+      props: { tab: 'projects' },
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      component: HomeView,
+      props: { tab: 'experience' },
     },
   ]
 })

@@ -1,0 +1,75 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey."
+        }
+    },
+
+    "items": [
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.uol}",
+            "period": ["2018/04", "2020/05"],
+            "locales": {
+                "en": {
+                    "title": "ICT Associate Developer",
+                    "description": "In this role my focus was on developing and maintaining web applications which enhance student experience within the university. Projects which I have been involved in are a university wide AI chatbot answering FAQs and an on-campus navigation system.",
+                    "tags": ["C#", ".NET", "Vue.js"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.ampsuite}",
+            "period": ["2020/06", "2021/05"],
+            "locales": {
+                "en": {
+                    "title": "PHP Developer",
+                    "description": "As a developer at ampSuite I have developed numerous features which enhance the usability, technical integrity and longevity of the platform. These include API integrations (YouTube, Spotify, iTunes, Beatport, TransferWise), server management enhancements (dynamic allocation of client systems across 20+ depending on traffic and space usage) and unit tests. In addition, I interacted with a large client pool & suppliers of ampSuite day to day, and monitor numerous data ingestion scripts amongst other processes.",
+                    "tags": ["PHP", "MySQL", "JavaScript", "jQuery", "Linux"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_3",
+            "place": "@link{places.blc}",
+            "period": ["2021/06", "2022/01"],
+            "locales": {
+                "en": {
+                    "title": "Software Engineer",
+                    "description": "As a developer at BLC I have developed many features and finalised a range of larger projects. I began, and lead my team on, the migration of our system to AWS microservices; I have also been responsible for successfully implementing unit tests and ultimately covering 80%+ of the codebase whilst also teaching the rest of the team about their importance and writing effective code. I have also been responsible for leading the implementation of e2e Nightwatch tests and working towards a 100% coverage to replace manual regression tests – in addition to carrying out daily developer duties such as (writing and) managing Jira tickets & documentation, doing code reviews and giving a hand to other team members when needed.",
+                    "tags": ["PHP", "MySQL", "AWS", "Microservices", "JavaScript", "Nightwatch", "PHPUnit", "ElasticSearch", "DynamoDB", "Slim"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_4",
+            "place": "@link{places.expansive}",
+            "period": ["2022/02", "2023/02"],
+            "locales": {
+                "en": {
+                    "title": "Senior Software Engineer",
+                    "description": "In addition to carrying out my daily duties of generic development, I am actively involved in SCRUM ceremonies such as sprint planning and backlog grooming. Involved in making long lasting decisions concerning the architecture and implementation of not only the existing product(s), but also new ones.",
+                    "tags": ["PHP", "Laravel", "Docker", "MySQL", "PHPUnit", "API Testing", "Vue2", "Vue3", "PWA"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_4",
+            "place": "@link{places.beatport}",
+            "period": ["2023/02", "now"],
+            "locales": {
+                "en": {
+                    "title": "Senior Software Engineer",
+                    "description": "At Beatport, I took ownership of the complete software release lifecycle, overseeing everything from planning to deployment. I played a key role in mentoring team members, planning and assigning tasks, and collaborating with the Product Owner to scope upcoming projects. I spearheaded critical upgrades, including migrating the codebase from PHP 7.4 to 8.2 (and later 8.4), and initiated a transition from legacy infrastructure to Google Cloud Platform (GCP), successfully migrating bare-metal storage and databases while upgrading MySQL from 5.7 to 8.0. Additionally, I implemented Docker for local development, optimized the deployment process to reduce the deployment time for over 1,000 instances to under 15 minutes, and integrated GitLab CI/CD. My contributions also included laying the foundation for a PHPUnit test suite, integrating Cypress E2E testing into the pipeline with QA, and ensuring efficient collaboration across the team.",
+                    "tags": ["PHP", "Docker", "MySQL", "PHPUnit", "JavaScript", "jQuery", "Linux", "GCP"]
+                }
+            }
+        }
+    ]
+}

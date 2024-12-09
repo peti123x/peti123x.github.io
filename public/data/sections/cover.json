@@ -1,0 +1,21 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Portfolio!</span>",
+            "welcomeShort": "Hello!",
+            "bio": "An experienced, enthusiastic and detail-oriented engineer who enjoys being challenged; particularly in architectural and infrastructural aspects of engineering. Born leader who is not afraid to take charge to lead a team into unconditional success."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}"
+        ]
+    }
+}

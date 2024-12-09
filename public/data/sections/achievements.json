@@ -1,0 +1,75 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My journey as a software engineer has been fruitful and rewarding; I have undertaken various Udemy courses and started AWS & GCP cloud training (in progress), but my miscellaneous qualifications so far are as follows:"
+        }
+    },
+
+    "subcategories": [
+
+        {
+            "id": "certifications",
+            "faIcon": "fa-solid fa-award",
+            "locales": {
+                "en": {"title": "Certifications", "buttonLabel": "View Certification"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "graduation_project",
+                "place": "@link{places.harvard}",
+                "date": "2018/08",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Best Graduation Project",
+                        "description": "Outstanding work on graduation project; recognized for innovation and impact."
+                    }
+                }
+            }
+        ],
+
+        "certifications": [
+            {
+                "id": "html_cert",
+                "place": "@link{places.microsoft}",
+                "date": "2018/01",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "MTA: HTML5 Application Development Fundamentals",
+                        "description": "Certified by Microsoft in using modern HTML5."
+                    }
+                }
+            },
+            {
+                "id": "python",
+                "place": "@link{places.microsoft}",
+                "date": "2019/03",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "MTA: Introduction to Programming Using Python",
+                        "description": "Certified by Microsoft in fundamentals of Python development."
+                    }
+                }
+            },
+            {
+                "id": "db_cert",
+                "place": "@link{places.microsoft}",
+                "date": "2019/03",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "MTA: Database Fundamentals",
+                        "description": "Certified by Microsoft in fundamentals of databases and schema optimisation."
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Exploring the diverse range of skills I've acquired and developed:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "abilities",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-square",
+            "locales": {
+                "en": {"title": null}
+            }
+        },
+
+        {
+            "id": "programming",
+            "type": "grid",
+            "progress": "number",
+            "faIcon": "fa fa-code",
+            "locales": {
+                "en": {"title": "Programming"}
+            }
+        },
+
+        {
+            "id": "languages",
+            "type": "list",
+            "progress": {"0": "beginner", "20": "rookie", "40": "intermediate", "60": "advanced", "80": "fluent", "100": "native"},
+            "faIcon": "fa fa-language",
+            "locales": {
+                "en": {"title": "Languages"}
+            }
+        },
+
+        {
+            "id": "extra",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-marker",
+            "locales": {
+                "en": {"title": "Bonus Skills"}
+            }
+        }
+    ],
+
+    "items": {
+        "abilities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-cubes-stacked",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Full Stack",
+                        "description": "Proficient in multiple languages and frameworks for both front and back-end development; familiarity with multiple databases (MySQL, MariaDB, DynamoDB, NoSQL, PostgreSQL) and virtualisation technologies."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-sitemap",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "System Design and Architecture",
+                        "description": "Extensive knowledge of architectural patterns, database designs and cloud platforms (GCP & AWS). Expertise in microservices architecture, distributed systems, and API design."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-person-chalkboard",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Leadership",
+                        "description": "Experience leading and mentoring engineering teams; experience in technical planning; ability to foster collaboration and guide projects to successful completion."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-terminal",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "CI/CD",
+                        "description": "A strong understanding of DevOps practices and CI/CD pipelines."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-volume-low",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Communication",
+                        "description": "Proficiency in technical writing and documentation. Ability to present complex ideas effectively to both technical and non-technical stakeholders."
+                    }
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-hand-holding-hand",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Project Management & Delivery",
+                        "description": "Proven track record of delivering projects on time and within scope. Skills in estimating timelines, managing risk, and handling dependencies. Familiarity with Jira and SCRUM / Kanban."
+                    }
+                }
+            }
+        ],
+
+        "programming": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-php",
+                "value": 95,
+                "locales": {
+                    "en": {"title": "PHP", "description": "Experience time: 8 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-laravel",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "Laravel", "description": "Experience time: 4 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-docker",
+                "value": 80,
+                "locales": {
+                    "en": {"title": "Docker", "description": "Experience time: 4 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-python",
+                "value": 70,
+                "locales": {
+                    "en": {"title": "Python", "description": "Experience time: 2 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-html5",
+                "value": 95,
+                "locales": {
+                    "en": {"title": "HTML 5", "description": "Experience Time: 7 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-css3-alt",
+                "value": 70,
+                "locales": {
+                    "en": {"title": "CSS 3", "description": "Experience Time: 7 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-sass",
+                "value": 50,
+                "locales": {
+                    "en": {"title": "Sass/Less", "description": "Experience Time: 4 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js-square",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "JavaScript", "description": "Experience Time: 8 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-vuejs",
+                "value": 85,
+                "locales": {
+                    "en": {"title": "Vue 3", "description": "Experience Time: 3 years"}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-react",
+                "value": 70,
+                "locales": {
+                    "en": {"title": "React", "description": "Experience time: 2 years"}
+                }
+            }
+        ],
+
+        "languages": [
+            {
+                "imageIconUrl": "images/flags/en.png",
+                "faIcon": null,
+                "value": 100,
+                "locales": {
+                    "en": {"title": "English", "description": "Fluent speaker with excellent communication and writing skills."}
+                }
+            },
+
+            {
+                "imageIconUrl": "images/flags/hu.png",
+                "faIcon": null,
+                "value": 100,
+                "locales": {
+                    "en": {"title": "Hungarian", "description": "Native speaker."}
+                }
+            }
+        ],
+
+        "extra": [
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Performance Optimisation",
+                        "description": "Expertise in optimising system performance, including load balancing, caching strategies, and latency reduction. Ability to diagnose bottlenecks and implement efficient algorithms."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Security Best Practices",
+                        "description": "Strong understanding of cybersecurity principles, secure coding practices, and data protection regulations (e.g., GDPR, CCPA). Experience with implementing authentication and authorization protocols such as OAuth, JWT, and SAML. Hands-on experience in monitoring and resolving CVEs."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Test Automation and Quality Assurance",
+                        "description": "Proficiency in designing and implementing automated testing frameworks (e.g., PHPUnit, Codeception, Cypress, Jest). TDD user and familiar with BDD."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Scalability and Reliability",
+                        "description": "Hands-on experience designing systems that scale horizontally and ensuring high availability. Knowledge of monitoring and observability tools (e.g., Prometheus, Grafana, New Relic) to maintain system uptime."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Codebase Modernisation",
+                        "description": "Expertise in upgrading legacy PHP codebases to modern standards, including transitioning from old/no framework to modern frameworks (e.g., Laravel, Symfony), improving adherence to PSR standards and PHP upgrades."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Database Optimisation",
+                        "description": "Advanced skills in optimising SQL queries and database schema design to improve performance and scalability in high-traffic PHP applications."
+                    }
+                }
+            }
+        ]
+
+    }
+}

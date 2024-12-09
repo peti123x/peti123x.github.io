@@ -1,0 +1,24 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "A glimpse into my academic trajectory and accomplishments."
+        }
+    },
+
+    "items": [
+
+        {
+            "id": "bachelor_uol",
+            "place": "@link{places.uol}",
+            "period": ["2017/09", "2020/05"],
+
+            "locales": {
+                "en": {
+                    "title": "BSc Mathematics and Computer Science (First Class Hons)",
+                    "description": "Graduated with solid grades and awarded first class honours. The course placed a focus on data science and building strong mathematical and logical thinking skills. My dissertation focused on Machine Learning and Artificial Intelligence."
+                }
+            }
+        }
+    ]
+}

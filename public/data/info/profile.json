@@ -1,0 +1,45 @@
+{
+    "name": "Peter Cseik",
+    "profilePictureUrl": "images/pictures/me.jpg",
+
+    "locales": {
+        "en": {
+            "credits": "",
+            "role": "Senior Software Engineer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Nottingham, UK",
+            "valueShort": "Nottingham, UK",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "petercseik@hotmail.com",
+            "valueShort": "petercseik@hotmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:petercseik@hotmail.com"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@peti12x",
+            "valueShort": "@peti123x",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/peti123x"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@pcseik",
+            "valueShort": "@pcseik",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/in/pcseik"
+        }
+    }
+}

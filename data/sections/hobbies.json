@@ -1,0 +1,124 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Hobbies</span> & Interests",
+            "description": "This is pretty much how I spend my free time:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "activities",
+            "type": "pie",
+            "progress": "number",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": null}
+            }
+        },
+
+        {
+            "id": "interests",
+            "type": "list",
+            "progress": null,
+            "faIcon": "fa fa-book-open-reader",
+            "locales": {
+                "en": {"title": "Interests"}
+            }
+        }
+    ],
+
+    "items": {
+        "activities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-users",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Family & Friends", "description": "Time spent socialising."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-tasks",
+                "value": 35,
+                "locales": {
+                    "en": {"title": "My Projects", "description": "Building and working on various personal projects."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Studying", "description": "Reading and learning about new things to improve myself."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-dumbbell",
+                "value": 25,
+                "locales": {
+                    "en": {"title": "Exercise", "description": "Improving myself physically."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-car",
+                "value": 10,
+                "locales": {
+                    "en": {"title": "Cars", "description": "Working on my car, and learning about engineering of cars!"}
+                }
+            }
+        ],
+
+        "interests": [
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Programming", "description": "Exploring code, algorithms, and building software solutions for real-world challenges."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-trowel-bricks",
+                "value": null,
+                "locales": {
+                    "en": {"title": "LEGO", "description": "I love to collect and build LEGO sets, particularly all the big scale cars."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-dumbbell",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Gym & Health", "description": "Excercising and playing sports helps me mentally focused on engineering."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Reading", "description": "Reading is a great way to learn new things, and I enjoy picking up a book every so often."}
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-car",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Cars", "description": "I like to work on, repair and drive cars! A born racer who enjoys the thrill and sound of a screaming V8 on track :)"}
+                }
+            }
+        ]
+
+    }
+}

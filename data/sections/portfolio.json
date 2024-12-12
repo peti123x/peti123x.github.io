@@ -1,0 +1,165 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Portfolio</span>",
+            "description": "Explore a selection of my public projects. The vast majority of my previous work is internal systems that I cannot easily showcase here."
+        }
+    },
+
+    "subcategories": [
+
+        {
+            "id": "website",
+            "locales": {
+                "en": {"title":  "Website"}
+            }
+        },
+        {
+            "id": "utilities",
+            "locales": {
+                "en": {"title":  "Utilities"}
+            }
+        },
+        {
+            "id": "data",
+            "locales": {
+                "en": {"title":  "Data Science"}
+            }
+        }
+    ],
+
+    "items": {
+        "data": [
+            {
+                "id": "dissertation",
+                "title": "Dissertation",
+                "logoUrl": "images/portfolio/python-logo.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href":  "https://github.com/peti123x/level-crossing-classifier", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is a Machine Learning / Data Science oriented project that I have undertaken in my final year of university as my undergraduate project.\n\nThe idea was to gather data on local rail traffic by scraping data from the web, and use the collected data to forecast any delays and hence the traversability of rail crossings at a given time T.\n\nThe above forecast was achieved by analysing the data and applying several clever data engineering methods to make it suitable for a computer to analyse.\n\nOverall, it has been a very successful project and the methods the paper discusses can enhance similar multivariate time series classification models too.\n\nIf you're interested in reading the paper, you may download it from the repository.",
+                        "tags": ["Data Science", "Python", "Machine Learning", "Web Scraping"]
+                    }
+                }
+            },
+            {
+                "id": "annrf",
+                "title": "ANN and Random Forest",
+                "logoUrl": "images/portfolio/python-logo.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href":  "https://github.com/peti123x/ANN-and-Randomforest", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This repository entails a Python implementation of an Artificial Neural Network and Random Forest for solving a university assignment.\n\nThe code isn't for showcase of skill, just having some fun with some Machine Learning models!",
+                        "tags": ["Data Science", "Python", "Machine Learning"]
+                    }
+                }
+            },
+            {
+                "id": "regressionnclustering",
+                "title": "Regression and Clustering",
+                "logoUrl": "images/portfolio/python-logo.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href":  "https://github.com/peti123x/Regression-and-Clustering", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This repository entails a Python implementation of Regression and Clustering for solving a university assignment.",
+                        "tags": ["Data Science", "Python", "Machine Learning"]
+                    }
+                }
+            }
+        ],
+        "website": [
+            {
+                "id": "cf",
+                "title": "CleanerForce",
+                "logoUrl": "images/portfolio/cleanerforce-logo.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href":  "https://cleanerforce.co.uk/", "id": "CleanerForce"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is a simple portfolio website created for a domestic cleaner agency.",
+                        "tags": ["Vue", "Vercel"]
+                    }
+                }
+            },
+            {
+                "id": "this",
+                "title": "This Portfolio",
+                "logoUrl": "images/pictures/me.jpg",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href":  "https://github.com/peti123x/peti123x.github.io", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "I have created this portfolio for practising some technology.\n\nPlease open the repository for more information!",
+                        "tags": ["Vue", "CI/CD", "UI/UX"]
+                    }
+                }
+            },
+            {
+                "id": "gg",
+                "title": "Gajdos Gergely Photography",
+                "logoUrl": "images/portfolio/gglogo.jpg",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href":  "https://gergelygajdos.com/", "id": "Gergely Gajdos Photography"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is a simple portfolio website created on contract for a photographer. The design was provided to me via Figma and I developed it using some JavaScript and PHP backend.",
+                        "tags": ["PHP", "JavaScript", "jQuery"]
+                    }
+                }
+            },
+            {
+                "id": "gg2",
+                "title": "Prime Model Management",
+                "logoUrl": "images/portfolio/no-pic.jpg",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href":  "https://primemodelmanagement.com/", "id": "Prime Model Management"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "This is a simple portfolio website created on contract for a modeling agency. The design was provided to me via Figma and I developed it using some JavaScript and PHP backend.",
+                        "tags": ["PHP", "JavaScript", "jQuery"]
+                    }
+                }
+            },
+            {
+                "id": "jetpower",
+                "title": "JetPower Hungary",
+                "logoUrl": "images/portfolio/jetpower_logo.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href":  "https://jetpower.hu/", "id": "JetPower Hungary"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "The project is an multilingual ecommerce website powered by a Laravel API consumed by a React (+TypeScript) front-end. The backend integrates with Stripe and PayPal to create and complete transactions, and also implements APIs to create parcels, issue and print shipping labels and track packages (and act based on delivery status). The webshop is backed by a comprehensive warehousing system that allows the business to manage multiple warehouses and accurately track inventory levels and physical locations. That, along with various different settings like custom pages, warehouse and collection management etc can all be managed through an admin panel built using React Admin framework with TypeScript. The warehousing solution, and the entire shop, is built to scale and to purpose by myself - jobs are managed through a Redis queue and the entire suite of the app is built in a Docker container that is production ready to run in Kubernetes. This is just the highlights :)",
+                        "tags": ["PHP", "Laravel", "React", "TypeScript", "Redis", "Docker"]
+                    }
+                }
+            }
+        ],
+        "utilities": [
+            {
+                "id": "indexnow",
+                "title": "IndexNow Forwarder",
+                "logoUrl": "images/portfolio/indexnow.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href":  "https://github.com/peti123x/indexnow-forwarder", "id": "GitHub"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Many growing search engines now use IndexNow; a centralised messaging protocol that pings search engine crawlers about updates to any URLs. Shopify users either have to build a solution themselves to implement this, or pay a monthly fee for a Shopify app for somebody to do the work for them... However, despite needing a server, it's doable for free! I built a Vercel deployable application that can be connected to a Shopify store to submit product and collection changes to the IndexNow service, allowing the website to be up to date across search engines like Yandex and Bing. It's as simple as signing up for a free Vercel plan, hosting the forked repository and following the readme instructions to set up hooks on the Shopify store to invoke the exposed API, and voila, any changes to collections and products are automatically relayed to all alternative search engines! Note, this can definitely be generalised further, I am happy to accept PRs.",
+                        "tags": ["PHP", "SEO", "Vercel"]
+                    }
+                }
+            }
+        ]
+    }
+}

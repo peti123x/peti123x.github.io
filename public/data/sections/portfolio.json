@@ -129,6 +129,20 @@
                         "tags": ["PHP", "JavaScript", "jQuery"]
                     }
                 }
+            },
+            {
+                "id": "jetpower",
+                "title": "JetPower Hungary",
+                "logoUrl": "images/portfolio/jetpower_logo.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href":  "https://jetpower.hu/", "id": "JetPower Hungary"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "The project is an multilingual ecommerce website powered by a Laravel API consumed by a React (+TypeScript) front-end. The backend integrates with Stripe and PayPal to create and complete transactions, and also implements APIs to create parcels, issue and print shipping labels and track packages (and act based on delivery status). The webshop is backed by a comprehensive warehousing system that allows the business to manage multiple warehouses and accurately track inventory levels and physical locations. That, along with various different settings like custom pages, warehouse and collection management etc can all be managed through an admin panel built using React Admin framework with TypeScript. The warehousing solution, and the entire shop, is built to scale and to purpose by myself - jobs are managed through a Redis queue and the entire suite of the app is built in a Docker container that is production ready to run in Kubernetes. This is just the highlights :)",
+                        "tags": ["PHP", "Laravel", "React", "TypeScript", "Redis", "Docker"]
+                    }
+                }
             }
         ],
         "utilities": [
@@ -141,7 +155,7 @@
                 ],
                 "locales": {
                     "en": {
-                        "description": "Built a Vercel deployable application that can be connected to a Shopify store to submit product and collection changes to the IndexNow service, allowing the website to be up to date across search engines like Yandex and Bing.",
+                        "description": "Many growing search engines now use IndexNow; a centralised messaging protocol that pings search engine crawlers about updates to any URLs. Shopify users either have to build a solution themselves to implement this, or pay a monthly fee for a Shopify app for somebody to do the work for them... However, despite needing a server, it's doable for free! I built a Vercel deployable application that can be connected to a Shopify store to submit product and collection changes to the IndexNow service, allowing the website to be up to date across search engines like Yandex and Bing. It's as simple as signing up for a free Vercel plan, hosting the forked repository and following the readme instructions to set up hooks on the Shopify store to invoke the exposed API, and voila, any changes to collections and products are automatically relayed to all alternative search engines! Note, this can definitely be generalised further, I am happy to accept PRs.",
                         "tags": ["PHP", "SEO", "Vercel"]
                     }
                 }
